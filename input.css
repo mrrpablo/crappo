@@ -12,6 +12,12 @@
     text-decoration: none;
 }
 
+section,
+footer,
+header{
+    border: 1px solid red;
+}
+
 body{
     background: #0D0D2B;
 }
@@ -21,24 +27,24 @@ img{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 h2{
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
 h3{
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
 p,
 a,
 li{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
 }
 
@@ -67,4 +73,24 @@ li{
 .cards span{
     font-weight: 500;
     font-size: 1.125rem;
+}
+
+@media (min-width: 768px){
+    h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 2.1rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    p,
+    a,
+    li{
+        font-size: 1rem;
+    }
 }
