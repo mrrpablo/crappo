@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: #0D0D2B;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+p,
+a,
+li{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.card{
+    background: #ffffff;
+}
+
+.section-four{
+    background: #ffffff;
+}
+
+.section-five{
+    background: #2B076E;
+}
+
+.section-six{
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+}
+
+.cards span{
+    font-weight: 500;
+    font-size: 1.125rem;
+}
