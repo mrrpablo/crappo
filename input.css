@@ -69,6 +69,24 @@ li{
     font-size: 1.125rem;
 }
 
+@media (max-width:320px){
+    .hamburger{
+        margin-left: 7em;
+    }
+    .pay{
+        margin-left: .8em;
+    }
+
+    .footer-body .logo{
+        margin-left: 5em;
+    }
+
+    .socials,
+    .copy{
+        margin-left: 4em;
+    }
+}
+
 @media (min-width: 768px){
     h1{
         font-size: 4rem;

@@ -635,6 +635,14 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.ml-\[1em\]{
+  margin-left: 1em;
+}
+
+.ml-\[12em\]{
+  margin-left: 12em;
+}
+
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -675,40 +683,24 @@ video {
   margin-right: 5rem;
 }
 
-.ml-\[5em\]{
-  margin-left: 5em;
-}
-
-.ml-\[1em\]{
-  margin-left: 1em;
+.ml-\[6\.5em\]{
+  margin-left: 6.5em;
 }
 
 .mb-5{
   margin-bottom: 1.25rem;
 }
 
-.ml-\[\.5em\]{
-  margin-left: .5em;
+.ml-\[3\.5em\]{
+  margin-left: 3.5em;
 }
 
-.ml-\[3em\]{
-  margin-left: 3em;
+.ml-\[5\.5em\]{
+  margin-left: 5.5em;
 }
 
 .mt-3{
   margin-top: 0.75rem;
-}
-
-.ml-\[8em\]{
-  margin-left: 8em;
-}
-
-.ml-\[7em\]{
-  margin-left: 7em;
-}
-
-.ml-\[2em\]{
-  margin-left: 2em;
 }
 
 .block{
@@ -929,10 +921,6 @@ video {
   padding-top: 2.5rem;
 }
 
-.pt-\[8e\]{
-  padding-top: 8e;
-}
-
 .text-center{
   text-align: center;
 }
@@ -1039,6 +1027,25 @@ li{
 .cards span{
   font-weight: 500;
   font-size: 1.125rem;
+}
+
+@media (max-width:320px){
+  .hamburger{
+    margin-left: 7em;
+  }
+
+  .pay{
+    margin-left: .8em;
+  }
+
+  .footer-body .logo{
+    margin-left: 5em;
+  }
+
+  .socials,
+    .copy{
+    margin-left: 4em;
+  }
 }
 
 @media (min-width: 768px){
